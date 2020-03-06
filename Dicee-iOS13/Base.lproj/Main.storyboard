@@ -35,6 +35,9 @@
                                 <state key="normal" title="Roll">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="rollButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ogx-i8-Vvp"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="6KX-Iu-qaX">
                                 <rect key="frame" x="49" y="388" width="120" height="120"/>
@@ -46,6 +49,7 @@
                     </view>
                     <connections>
                         <outlet property="diceImageView1" destination="6KX-Iu-qaX" id="Wzh-FD-J2N"/>
+                        <outlet property="diceImageView2" destination="uTv-Zk-xWD" id="Bgv-Bw-65E"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
